@@ -1,0 +1,58 @@
+Tarea 21/02/2024
+
+Respuestas:
+
+¿Qué es GIT?
+
+R/ Git es como decir un tipo de lenguaje que se basa en el control de versiones moderno, es decir para el desarrollo de proyectos con futuras actualizaciones.
+
+¿Cuáles son los comandos más importantes y para que sirven?
+
+R/
+
+1. Git clone
+Git clone es un comando para descargarte el código fuente existente desde un repositorio remoto (como Github, por ejemplo).
+
+2. Git branch
+Usando ramas, varios desarrolladores pueden trabajar en paralelo en el mismo proyecto simultáneamente.
+
+3. Git checkout
+Este es también uno de los comandos más utilizados en Git. Para trabajar en una rama, primero tienes que cambiarte a ella.
+
+4. Git status
+El comando de git status nos da toda la información necesaria sobre la rama actual.
+
+5. Git add
+Cuando creamos, modificamos o eliminamos un archivo, estos cambios suceden en local y no se incluirán en el siguiente commit
+
+6. Git commit
+Este sea quizás el comando más utilizado de Git. Una vez que se llega a cierto punto en el desarrollo, queremos guardar nuestros cambios
+
+7. Git push
+Después de haber confirmado tus cambios, el siguiente paso que quieres dar es enviar tus cambios al servidor remoto.
+
+8. Git pull
+El comando git pull se utiliza para recibir actualizaciones del repositorio remoto.
+
+9. Git revert
+Nos sirve para deshacer acciones que hemos realizado.
+
+10. Git merge
+Nos sirve para fusionar las ramas creadas hacía la rama padre, para cuando nosotros hayamos terminado nuestro desarrollo.
+
+3. ¿Cuál es la diferencia entre Git y Github?
+
+Git es básicamente el lenguaje de comandos que nos va a permitir desarrollar nuestro proyecto y poder crear versiones de las mismas, mientras que GitHub será nuestro repositorio, es decir donde nosotros podemos aguardar los cambios y proyectos.
+
+4. Enumere los comandos para subir cambios a un repositorio.
+
+git init
+git add (acá añadimos el archivo o proyecto desarrollado)
+git commit -m "Tarea ejemplo" (nos permite llamar al prototipo)
+git branch -M main
+git remote add origin https://github.com/--- (el link de nuestro repositorio)
+git push -u origin main
+
+5. ¿Qué es una branch?
+
+Según el vídeo hay algo llamado bifurcación, y esto nos permite crear más ramas y más versiones de un proyecto que tengamos, como así mismo poder eliminar versiones antiguas o no deseadas.
