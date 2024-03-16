@@ -1,0 +1,24 @@
+
+class Caja
+{
+    public double Alto { get; set; }
+    public double Largo { get; set; }
+    public double SuperficieFrontal { get { return Alto * Largo; } } 
+
+    // Constructor para iniciar Alto y Largo
+    public Caja(double alto, double largo)
+    {
+        Alto = alto;
+        Largo = largo;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // creamos la instancia del programa
+        Caja caja = new Caja(10, 20);
+        Console.WriteLine("Superficie frontal de la caja: " + caja.SuperficieFrontal);
+    }
+}

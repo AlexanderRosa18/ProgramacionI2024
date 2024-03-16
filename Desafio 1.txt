@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingrese un número entero: ");
+        int numero = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Números pares del número ingresado:");
+
+        // Se crea un bucle for par incrementar el valor del número ingresado y verá si es par o no
+        for (int i = 1; i <= numero; i++)
+        {
+            // Verifica si el número actual es par
+            if (i % 2 == 0)
+            {
+                // Si es par, lo va a poder imprimir acá
+                Console.WriteLine(i);
+            }
+        }
+    }
+}
+
